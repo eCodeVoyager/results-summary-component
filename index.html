@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cambay&family=Hanken+Grotesk:wght@200;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="output/style.css" />
+  </head>
+  <body class="bg-slate-50">
+    <div
+      class="flex flex-row m-auto h-[75vh] w-[50vw] mt-[12.5vh] rounded-[30px] bg-[#fff] drop-shadow-2xl"
+    >
+      <div
+        class="w-[25vw] h-[75vh] bg-gradient-to-t from-[#3f3fe0] to-[#614ae9] rounded-[30px] justify-evenly"
+      >
+        <h1 class="ml-[110px] mt-[30px] font-bold text-2xl text-[#cfc6ff]">
+          Your Result
+        </h1>
+        <div
+          class="flex flex-col m-auto mt-[35px] rounded-full bg-gradient-to-t from-[#4848da] to-[#492ee4] h-[190px] w-[190px] align-middle justify-center"
+        >
+          <h1 class="font-bold text-[80px] text-[#fff] m-auto mt-7 mb-0">76</h1>
+          <p class="text-lg text-[#8d80ff] m-auto mt-[-10px]">of 100</p>
+        </div>
+        <h1
+          class="h1 font-bold text-[32px] text-[#fff] ml-[128px] mt-[20px] ml- mb-[15px] justify-center align-middle"
+        >
+          Great
+        </h1>
+        <p
+          class="font-extralight text-center mt-[-6px] text-[17px] text-[#fff]"
+        >
+          You scored higher than 65% of <br />
+          the people who have taken<br />
+          thoose tests
+        </p>
+      </div>
+      <div class="w-[25vw] h-[75vh] bg-white rounded-[30px]">
+        <h1 class="ml-6 mb-[30px] mt-[30px] font-bold text-2xl text-[#535050]">
+          Summary
+        </h1>
+        <div
+          class="h-[50px] w-[290px] bg-[#fff6f5] rounded-lg m-auto mt-[20px] flex flex-row justify-between"
+        >
+          <div class="flex flex-row">
+            <img
+              src="/assets/images/icon-reaction.svg "
+              alt=""
+              class="h-6 w-6 m-auto mt-[15px] ml-[15px]"
+            />
+            <p class="mt-[12px] ml-[15px] text-[#db6567] font-bold text-lg">
+              Reaction
+            </p>
+          </div>
+          <div class="mt-[12px] mr-6">
+            <span class="text-lg font-bold">80 </span
+            ><span class="text-lg text-[#6b6565] font-semibold">/ 100</span>
+          </div>
+        </div>
+        <div
+          class="h-[50px] w-[290px] bg-[#fffbf2] rounded-lg m-auto mt-[20px] flex flex-row justify-between"
+        >
+          <div class="flex flex-row">
+            <img
+              src="/assets/images/icon-memory.svg "
+              alt=""
+              class="h-6 w-6 m-auto mt-[15px] ml-[15px]"
+            />
+            <p class="mt-[12px] ml-[15px] text-[#f6b441] font-bold text-lg">
+              Memory
+            </p>
+          </div>
+          <div class="mt-[12px] mr-6">
+            <span class="text-lg font-bold">61 </span
+            ><span class="text-lg text-[#6b6565] font-semibold">/ 100</span>
+          </div>
+        </div>
+        <div
+          class="h-[50px] w-[290px] bg-[#f2fbfa] rounded-lg m-auto mt-[20px] flex flex-row justify-between"
+        >
+          <div class="flex flex-row">
+            <img
+              src="/assets/images/icon-verbal.svg "
+              alt=""
+              class="h-6 w-6 m-auto mt-[15px] ml-[15px]"
+            />
+            <p class="mt-[12px] ml-[15px] text-[#37a88b] font-bold text-lg">
+              Verbal
+            </p>
+          </div>
+          <div class="mt-[12px] mr-6">
+            <span class="text-lg font-bold">92 </span
+            ><span class="text-lg text-[#6b6565] font-semibold">/ 100</span>
+          </div>
+        </div>
+        <div
+          class="h-[50px] w-[290px] bg-[#f3f3fd] rounded-lg m-auto mt-[20px] flex flex-row justify-between"
+        >
+          <div class="flex flex-row">
+            <img
+              src="/assets/images/icon-visual.svg "
+              alt=""
+              class="h-6 w-6 m-auto mt-[15px] ml-[15px]"
+            />
+            <p class="mt-[12px] ml-[15px] text-[#2e318d] font-bold text-lg">
+              Visual
+            </p>
+          </div>
+          <div class="mt-[12px] mr-6">
+            <span class="text-lg font-bold">72 </span
+            ><span class="text-lg text-[#6b6565] font-semibold">/ 100</span>
+          </div>
+        </div>
+        <button
+          type="submit"
+          class="rounded-[30px] m-auto mt-[30px] ml-6 h-[50px] w-[290px] bg-[#303b5a] text-[#fff] text-lg font-bold hover:bg-[#1c2335] hover:duration-300 hover:ease-in-out hover:scale-105"
+        >
+          Continue
+        </button>
+      </div>
+    </div>
+  </body>
+  <footer class="flex flex-row justify-end mt-[30px]">
+    <div class="flex flex-row">
+      <p class="mt-[12px] text-[#535050] font-bold text-sm">Coded by</p>
+      <p class="mt-[12px] ml-[5px] mr-6 text-[#d66868] font-bold text-sm">
+        <a href="https://github.com/eCodeVoyager" target="_blank"
+          >eCodeVoyager(Ehsan)</a
+        >
+      </p>
+    </div>
+  </footer>
+</html>
